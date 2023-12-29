@@ -14,7 +14,8 @@
       justify-content: center;
       min-height: 100vh;
       margin: 0;
-      background-color: antiquewhite;
+      background: rgb(156, 154, 185);
+      background: linear-gradient(180deg, rgba(156, 154, 185, 1) 0%, rgba(238, 238, 238, 1) 71%);
     }
 
     .container {
@@ -34,6 +35,12 @@
 
     h1 {
       margin-top: 0;
+    }
+
+    /* Add black border to table cells */
+    table.table-bordered th,
+    table.table-bordered td {
+      border: 1px solid #000;
     }
   </style>
 </head>
@@ -76,4 +83,6 @@
   <!-- Add Bootstrap JS and Popper.js scripts here -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstra
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
